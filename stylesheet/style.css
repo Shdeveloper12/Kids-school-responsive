@@ -1,0 +1,231 @@
+
+.Header-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 140px 80px 140px;
+}
+
+
+.paragraph-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* header style area */
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logo-header{
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.logo-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.nav-element, ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.nav-element, ul, li{
+    padding: 15px;
+    
+}
+.nav-element, li, a{
+    text-decoration: none;
+}
+#first-link{
+    color: orange;
+}
+#second-link{
+    color: skyblue;
+}
+#third-link{
+    color: rgba(5, 212, 223, 1);
+}
+#fourth-link{
+    color: rgba(93, 88, 239, 1);
+}
+.primary-btn{
+    background-color: orange;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    padding: 8px 40px 11px 40px;
+}
+.main-btn-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    
+}
+/* banner area style */
+.banner-contents{
+    display: flex;
+
+}
+.banner{
+    margin-top: 130px;
+}
+.banner-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 5px 0 15px 0;
+}
+#emp{
+   color: orange; 
+}
+#twd{
+    color: skyblue;
+}
+.heading-pra{
+    font-size: 1.2rem;
+}
+.banner-btn{
+    margin:0 auto;
+}
+.btnn{
+    background-color: rgb(5, 5, 5);
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    padding: 8px 40px 11px 40px;
+}
+#baner-btnn{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+.image{
+    margin-left: 50px;
+}
+/* main area style */
+
+/* main{ 
+    margin: 0 140px 80px 140px;
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+}*/
+.main-cart{
+    background-image: url(/assets/bg.png);
+  
+   
+   
+}
+.sub-cart{
+    margin: 50px 140px 80px 140px;
+   
+}
+.cart-title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+.cart-element{
+    display: flex;
+    gap: 20px;
+    margin: 0 140px 80px 140px;
+    background-color: white;
+
+}
+.element-item{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+#gradient-1{
+    background: linear-gradient(to bottom, #e7f6ff, #ffffff);
+   ;
+}
+#gradient-2{
+    background: linear-gradient(to bottom, #fff5dd, #ffffff);;
+}
+#gradient-3{
+    background: linear-gradient(to bottom, #f1dcff, #ffffff);
+}
+
+.element-item h4{
+    font-family: "Quicksand", serif;
+}
+.element-item p{
+    font-family:"Raleway", serif;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 45px;
+}
+#cart-1{
+    color: rgba(100, 200, 255, 1);
+    font-family: "Quicksand", serif;
+}
+#cart-2{
+    color: rgba(240, 170, 0, 1);
+    font-family: "Quicksand", serif;
+}
+#cart-3{
+    color: rgba(135, 0, 255, 1);
+    font-family: "Quicksand", serif;
+}
+.icon-cart {
+    justify-content: center;
+    text-align: center;
+   
+}
+.icon-cart a{
+    padding: 5px;
+    background-color: orange;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+/* our stories areas */
+.our-stories{
+    background-image: url(/assets/bg.png);
+}
+.our-div{
+    margin-top: 50px;
+}
+.stories-title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    text-align: center;
+    margin-top:100px;
+}
+.all-stories{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.first-img{
+    margin-left:140px  ;
+    margin-top: 0px;
+}
+.four-img{
+   display: flex;
+   flex-direction: rows;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-right: 100px;
+   margin-top: 63px;
+}
