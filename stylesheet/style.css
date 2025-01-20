@@ -123,7 +123,7 @@
     background-size: cover;
 }*/
 .main-cart{
-    background-image: url(/assets/bg.png);
+    background-image: url(assets/bg.png);
   
    
    
@@ -199,7 +199,7 @@
 }
 /* our stories areas */
 .our-stories{
-    background-image: url(/assets/bg.png);
+    background-image: url(assets/bg.png);
 }
 .our-div{
     margin-top: 50px;
