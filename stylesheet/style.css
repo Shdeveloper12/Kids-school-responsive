@@ -46,7 +46,7 @@
     
     
 }
-.nav-element, ul, li{
+.nav-element, ul li{
     padding: 15px;
     
 }
@@ -342,12 +342,10 @@ footer{
 }
 .footer-element {
     color: white;
+    
 }
 .footer-element li a{
     color: white;
     
 }
-#footer-nav li{
-    padding: 0;
-}
-                                                                         
+                                                              
