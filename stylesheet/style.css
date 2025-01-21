@@ -17,8 +17,11 @@
 
 /* header style area */
 #marq{
-    color: #22a747;
+    color: white;
     font-weight: 700;
+    background-color: #506fb6;
+    border-radius: 3px;
+    
 }
 .main-nav{
     display: flex;
@@ -210,6 +213,10 @@
     margin: 10px;
     border-radius: 50%;
     font-size: 1.5rem;
+    transition: 0.4s ease-in-out;
+}
+.icon-cart a:hover{
+    background-color: #22a747;
 }
 /* our stories areas */
 .our-stories{
@@ -249,13 +256,16 @@
     border-top-right-radius: 10px;
     width: 100%;
 }
-.first-img button{
+.badge-btn{
     border-radius:25px ;
     background-color: rgba(60, 216, 232, 1);
     border: none;
     padding: 10px;
-    
-    
+    transition: 0.4s ease-in-out;
+}
+.badge-btn:hover{
+    background-color: #22a747;
+    cursor: pointer;
 }
 .badge-btn {
     margin-left: 50px;
@@ -306,6 +316,11 @@
     padding: 8px;
     margin-left: 50px;
     margin-top: -50px;
+    transition: 0.4s ease-in-out;
+}
+.all-img button:hover{
+    background-color: #22a747;
+    cursor: pointer;
 }
 .all-img button a{
     color:white;
@@ -319,6 +334,11 @@
 }
 #backgorud-other{
     background-color: rgba(93, 88, 240, 1);
+    transition: 0.4s ease-in-out
+}
+#backgorud-other:hover{
+    background-color: #22a747;
+    cursor: pointer;
 }
 #stories-btn{
     display: flex;
@@ -326,8 +346,10 @@
     justify-content: center;
     text-align: center;
     padding: 80px 0 60px 0; 
+    ;
    
 }
+
 #stories-btn button{
     background-color: rgb(5, 5, 5);
     border: none;
@@ -350,7 +372,7 @@
 
 footer{
     background-color: rgb(15 111 108);
-    padding: 80px 140px 50px 140px;
+    padding: 50px 140px 20px 140px;
 }
 .footer-font{
     font-family: "Quicksand", serif;
@@ -380,7 +402,7 @@ footer{
 /* responsive area style */
 
 @media screen and (max-width:576px){
-    .logo-title, .nav-element, .button{
+    .logo-title, .button{
         display: none;
         
     }
@@ -390,12 +412,15 @@ footer{
     #marq{
         margin: 0 0 0 5px;
         width: 576px;
+        color: white;
+    }
+    .logo{
+        margin-left: 10px;
     }
     .main-nav{
         border-bottom: 2px solid orange;
         width: 576px;
         margin: 0 0 0 5px;
-       
     }
     #manu-nevigation{
         display:inline-block;
@@ -410,10 +435,12 @@ footer{
         width: 576px;
         text-align: center;
     }
+    .banner-btn{
+        margin-top: 10px;
+    }
     .main-cart{
         width: 576px;
     }
-    
     .cart-element{
         width: 100%;
         flex-direction: column;
