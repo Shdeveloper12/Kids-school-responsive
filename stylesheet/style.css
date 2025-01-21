@@ -72,6 +72,10 @@
     text-align: center;
     padding: 8px 40px 11px 40px;
 }
+#manu-nevigation{
+    display:none;
+}
+
 .main-btn-text{
     font-size: 1.2rem;
     font-weight: 500;
@@ -348,4 +352,67 @@ footer{
     color: white;
     
 }
-                                                              
+
+
+/* responsive area style */
+
+@media screen and (max-width:576px){
+    .logo-title, .nav-element, .button{
+        display: none;
+        
+    }
+   .Header-font{
+        margin: 0 auto;
+    }
+    #marq{
+        margin: 0 auto;
+        width: 576px;
+    }
+    .main-nav{
+        border-bottom: 2px solid orange;
+        width: 576px;
+        margin: 0 auto;
+       
+    }
+    #manu-nevigation{
+        display:inline-block;
+        background-color: red;
+    }
+    .banner-contents{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .banner{
+        margin-top: 42px;
+        width: 576px;
+        text-align: center;
+    }
+    .main-cart{
+        width: 576px;
+    }
+    
+    .cart-element{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .our-stories{
+        width: 576px;
+    }
+    .first-img{
+        display: none;
+    }
+    .four-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 576px;
+        justify-content: center;
+    }
+    .main-footer{
+        flex-direction: column; 
+        justify-content: left;  
+    }
+    .footer-font{
+        width: 315px;
+    }
+}
