@@ -121,13 +121,8 @@
 }
 /* main area style */
 
-/* main{ 
-    margin: 0 140px 80px 140px;
-    background-image: url(/assets/bg.png);
-    background-size: cover;
-}*/
 .main-cart{
-    background-image: url(/assets/bg.png);
+    background-image: url(assets/bg.png);
   
    
    
@@ -203,7 +198,7 @@
 }
 /* our stories areas */
 .our-stories{
-    background-image: url(/assets/bg.png);
+    background-image: url(assets/bg.png);
     background-repeat: repeat;
     background-image: cover;
 }
@@ -355,7 +350,4 @@ footer{
 #footer-nav li{
     padding: 0;
 }
-.container{
-    /* text-align: center;
-    padding: 10px 50px 0 0; */
-}
+                                                                         
