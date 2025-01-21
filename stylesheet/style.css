@@ -17,7 +17,7 @@
 
 /* header style area */
 #marq{
-    color: steelblue;
+    color: #22a747;
     font-weight: 700;
 }
 .main-nav{
@@ -71,6 +71,11 @@
     border-radius: 9px;
     text-align: center;
     padding: 8px 40px 11px 40px;
+    transition: 0.4s ease-in-out;
+}
+.primary-btn:hover{
+    background-color: #22a747;
+    cursor: pointer;
 }
 #manu-nevigation{
     display:none;
@@ -106,6 +111,7 @@
 }
 .banner-btn{
     margin:0 auto;
+    
 }
 .btnn{
     background-color: rgb(5, 5, 5);
@@ -113,6 +119,11 @@
     border-radius: 9px;
     text-align: center;
     padding: 8px 40px 11px 40px;
+    transition: 0.4s ease-in-out;
+}
+.btnn:hover{
+    background-color: #22a747;
+    cursor: pointer;
 }
 #baner-btnn{
     font-size: 1.1rem;
@@ -126,7 +137,7 @@
 /* main area style */
 
 .main-cart{
-    background-image: url(assets/bg.png);
+    background-image: url(/assets/bg.png);
   
    
    
@@ -202,7 +213,7 @@
 }
 /* our stories areas */
 .our-stories{
-    background-image: url(assets/bg.png);
+    background-image: url(/assets/bg.png);
     background-repeat: repeat;
     background-image: cover;
 }
@@ -226,9 +237,9 @@
 }
 .first-img{
     margin-left:140px  ;
-    margin-bottom:  20px;
+    margin-bottom:  10px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: #f0fafa;
     margin-right: 5px;
 
 }
@@ -243,6 +254,7 @@
     background-color: rgba(60, 216, 232, 1);
     border: none;
     padding: 10px;
+    
     
 }
 .badge-btn {
@@ -271,11 +283,17 @@
     display: flex;
     flex-direction: rows;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
     margin-left: 20px;
     
     
+    
  }
+ .all-img{
+    background-color: #f0fafa;
+    border-radius: 10px;
+ }
+ 
 .all-img img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -315,7 +333,12 @@
     border: none;
     border-radius: 9px;
     text-align: center;
-    padding: 8px 40px 11px 40px;
+    padding: 10px 40px 11px 40px;
+    transition: 0.4s ease-in-out;
+}
+#stories-btn button:hover{
+    background-color: #22a747;
+    cursor: pointer;
 }
 #stories-btn button a{
     font-size: 1.1rem;
@@ -365,13 +388,13 @@ footer{
         margin: 0 auto;
     }
     #marq{
-        margin: 0 auto;
+        margin: 0 0 0 5px;
         width: 576px;
     }
     .main-nav{
         border-bottom: 2px solid orange;
         width: 576px;
-        margin: 0 auto;
+        margin: 0 0 0 5px;
        
     }
     #manu-nevigation{
@@ -380,7 +403,7 @@ footer{
     }
     .banner-contents{
         flex-direction: column-reverse;
-        margin: 0 auto;
+        margin: 0 0 0 5px;
     }
     .banner{
         margin-top: 42px;
@@ -394,7 +417,7 @@ footer{
     .cart-element{
         width: 100%;
         flex-direction: column;
-        margin: 0 auto;
+        margin: 0 0 0 5px;
     }
     .our-stories{
         width: 576px;
