@@ -4,6 +4,9 @@ This is a static frontend UI project, not connected to a backend or database. I'
 
 ![](https://github.com/Shdeveloper12/Kids-school-responsive/blob/main/kids.png)
 
+# Live Link
+https://shdeveloper12.github.io/Kids-school-responsive
+
 
 # Technology Stack
 HTML5 – Page structure and semantic layout
