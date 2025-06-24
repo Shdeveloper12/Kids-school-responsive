@@ -1,8 +1,8 @@
 -----------------------------------------------Kids School-----------------------------------------------
 
-This is a static frontend UI project, not connected to a backend or database.
+This is a static frontend UI project, not connected to a backend or database. I'm working on this project for the backend data loading.
 
-![]()
+![](https://github.com/Shdeveloper12/Kids-school-responsive/blob/main/kids.png)
 
 
 # Technology Stack
